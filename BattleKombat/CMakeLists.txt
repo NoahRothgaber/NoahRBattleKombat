@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.23)
+project(BattleKombat)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(BattleKombat main.cpp BattleKombatCPPEdition/BattleKombatGameManager.cpp BattleKombatCPPEdition/BattleKombatGameManager.h
+        BattleKombatKharacterFiles/KomboKharacter.h BattleKombatKharacterFiles/KomboKharacter.cpp BattleKombatKharacterFiles/AbstractKharacter.h BattleKombatKharacterFiles/AbstractKharacter.cpp BattleKombatKharacterFiles/DefensiveKharacter.cpp BattleKombatKharacterFiles/DefensiveKharacter.h BattleKombatKharacterFiles/Player.cpp BattleKombatKharacterFiles/Player.h BattleKombatKharacterFiles/AbstractItem.cpp BattleKombatKharacterFiles/AbstractItem.h BattleKombatKharacterFiles/ArmorItem.cpp BattleKombatKharacterFiles/ArmorItem.h BattleKombatKharacterFiles/SwordItem.cpp BattleKombatKharacterFiles/SwordItem.h BattleKombatKharacterFiles/ShieldItem.cpp BattleKombatKharacterFiles/ShieldItem.h BattleKombatKharacterFiles/ItemKharacter.cpp BattleKombatKharacterFiles/ItemKharacter.h)
